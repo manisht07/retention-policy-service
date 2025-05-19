@@ -1,24 +1,24 @@
-## 📘 `README.md`
+## `README.md`
 
 ```markdown
-# 🛡️ Retention Policy Service
+#  Retention Policy Service
 
 A FastAPI-based microservice to manage and apply data retention policies for enterprise archival systems. Supports complex rule-based expiration logic using a configurable JSON structure.
 
 ---
 
-## 🚀 Features
+##  Features
 
-- ✅ Create, update, and manage retention policies via API (Swagger UI)
-- ✅ Evaluate expiration date based on dynamic business rules
-- ✅ Supports nested conditions (`all`, `any`, `not`)
-- ✅ YAML-based ingestion pipeline configuration
-- ✅ Adds metadata like `retention_expiration_date`, `policy_name`, `legal_hold_flag` to ingested data
-- ✅ Supports PostgreSQL (or SQLite for local testing)
+- Create, update, and manage retention policies via API (Swagger UI)
+- Evaluate expiration date based on dynamic business rules
+- Supports nested conditions (`all`, `any`, `not`)
+- YAML-based ingestion pipeline configuration
+- Adds metadata like `retention_expiration_date`, `policy_name`, `legal_hold_flag` to ingested data
+- Supports PostgreSQL (or SQLite for local testing)
 
 ---
 
-## 🧱 Project Structure
+## Project Structure
 
 ```
 
@@ -87,9 +87,9 @@ Open Swagger docs:
 
 ---
 
-## 🧠 Sample API Usage
+## Sample API Usage
 
-### ✅ Create Policy
+### Create Policy
 
 ```http
 POST /api/policies
@@ -127,29 +127,7 @@ POST /api/policies
 
 ---
 
-## 📁 YAML-Based Ingestion Example
 
-`config/ingestion.yaml`:
-
-```yaml
-application: finance_app
-schema: transactions
-table: ledger
-policy_name: eu_retention_policy
-legal_hold_flag: N
-source_path: data/input/ledger.json
-output_path: data/output/ledger_tagged.json
-```
-
----
-
-## ✅ Run Tests
-
-```bash
-pytest tests/
-```
-
----
 
 ## 🧾 License
 

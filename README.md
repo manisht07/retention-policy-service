@@ -45,7 +45,7 @@ retention\_policy\_service/
 
 ---
 
-## 🧪 Run Locally
+##  Run Locally
 
 ### 1. Clone & Set Up
 ```bash
@@ -83,7 +83,7 @@ uvicorn app.main:app --reload
 ```
 
 Open Swagger docs:
-👉 [http://localhost:8000/docs](http://localhost:8000/docs)
+ [http://localhost:8000/docs](http://localhost:8000/docs)
 
 ---
 
@@ -125,19 +125,6 @@ POST /api/policies
 }
 ```
 
----
-
-
-
-## 🧾 License
-
-[MIT](LICENSE)
-
----
-
-## 👨‍💻 Author
-
-Built by **@Manish Tiwari**
 
 ```
 

@@ -41,7 +41,7 @@ retention\_policy\_service/
 ├── requirements.txt         # Python dependencies
 └── README.md                # This file
 
-````
+```
 
 ---
 
@@ -55,7 +55,7 @@ python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 # installs dependencies including `python-dateutil` for date-based rule evaluation
-````
+```
 
 ### 2. Configure Database
 
@@ -125,9 +125,5 @@ POST /api/policies
   }
 }
 ```
-
-
-```
-
 
 ```

@@ -12,7 +12,6 @@ A FastAPI-based microservice to manage and apply data retention policies for ent
 - Create, update, and manage retention policies via API (Swagger UI)
 - Evaluate expiration date based on dynamic business rules
 - Supports nested conditions (`all`, `any`, `not`)
-- YAML-based ingestion pipeline configuration
 - Adds metadata like `retention_expiration_date`, `policy_name`, `legal_hold_flag` to ingested data
 - Supports PostgreSQL (or SQLite for local testing)
 
@@ -32,11 +31,7 @@ retention\_policy\_service/
 │   │   └── rule\_engine.py   # Rule evaluation logic
 │   └── api/
 │       └── routes.py        # API endpoints
-├── config/
-│   └── ingestion.yaml       # Sample batch ingestion config
 ├── data/                    # Sample input/output
-├── tests/
-│   └── test\_rule\_engine.py  # Unit tests
 ├── .env                     # Environment variables
 ├── requirements.txt         # Python dependencies
 └── README.md                # This file

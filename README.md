@@ -54,6 +54,7 @@ cd retention-policy-service
 python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
+# installs dependencies including `python-dateutil` for date-based rule evaluation
 ````
 
 ### 2. Configure Database
